@@ -10,6 +10,7 @@ int main()
     std::cin >> a;
     try {
         if (a <= 0) throw a;
+        array.push_back(a);
         while (a != 1)
             {
                 if (a % 2 == 1)
